@@ -24,9 +24,6 @@ const Header = () => {
       </button>
 
 
-      <div>
-        <p className="text-3xl font-light">I specialize in a mix of visual/interaction design and front-end engineering — which allows me to translate ideas into functional prototypes and production-ready code with the full fidelity of the web.</p>
-      </div>
     </div>
 
   )

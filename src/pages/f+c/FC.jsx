@@ -1,7 +1,9 @@
 
 const FC = () => {
   return (
-    <div>FC</div>
+    <div>
+      <p>These are selected works I've created from scratch using Figma + code. Enjoy!</p>
+    </div>
   )
 }
 
