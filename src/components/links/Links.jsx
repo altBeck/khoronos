@@ -11,26 +11,26 @@ const Links = () => {
       <div className="flex justify-between w-[150px] px-6 py-3 border-[0.5px] border-[#E1E0E5] rounded-[99px] shado mr-4">
         <Tooltip content="drkannobeck@gmail.com">
           <a href="mailto:drkannobeck@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src={mail}/>
+            <img src={mail} alt="mail icon"/>
           </a>
         </Tooltip>
 
         <Tooltip content="linkedin.com/in/kanno-beck">
           <a href="https://linkedin.com/in/kanno-beck" target="_blank" rel="noopener noreferrer">
-            <img src={lknd}/>
+            <img src={lknd} alt="linkedin icon"/>
           </a>
         </Tooltip>
 
         <Tooltip content="dribbble.com/bekkr">
           <a href="https://dribbble.com/bekkr" target="_blank" rel="noopener noreferrer">
-            <img src={dbbbl}/>
+            <img src={dbbbl} alt="dribbble icon"/>
           </a>
         </Tooltip>
       </div>
 
       <Button className="md:hidden flex justify-center px-6 py-3 border-[0.5px] border-[#E1E0E5] rounded-[99px] shado">
         <span className="flex">
-          <a className="flex" href="https://drive.google.com/file/d/1hdTlI_GiH2eEcHo0lvrMf6VbQp_0DCKh/view" target="_blank" rel="noopener noreferrer">Resume<img src={arrow} /></a>
+          <a className="flex" href="https://drive.google.com/file/d/1hdTlI_GiH2eEcHo0lvrMf6VbQp_0DCKh/view" target="_blank" rel="noopener noreferrer">Resume<img src={arrow} alt="arrow-enter"/></a>
         </span>
       </Button>
     </div>  
