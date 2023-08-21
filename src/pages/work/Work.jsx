@@ -1,7 +1,14 @@
 
 const Work = () => {
   return (
-    <div>Work</div>
+    <div>
+      <div>
+        <h1>Work</h1>
+        <p>Case studies, web and mobile apps.</p>
+      </div>
+
+      
+    </div>
   )
 }
 

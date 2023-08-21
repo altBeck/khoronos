@@ -1,10 +1,13 @@
-import { Header, Title } from '../../components';
+import { Header } from '../../components';
 
 const Home = () => {
   return (
     <div className="App">
-      <Header />
-      <Title />
+      <div className="xl:pb-48">
+        <Header />
+      </div>
+
+      <h1 className="text-[100px] uppercase text-center">selected <br className="flex md:hidden" /> work</h1>
     </div>
   )
 }
