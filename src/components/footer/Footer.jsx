@@ -1,7 +1,13 @@
+import Copy from "../copy/Copy";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <div>
+        <p>Send me an email via <span className="font-semibold">drkannobeck@gmail.com</span></p>
+        <Copy />
+      </div>
+    </div>
   )
 }
 

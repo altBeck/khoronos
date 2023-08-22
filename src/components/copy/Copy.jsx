@@ -1,0 +1,27 @@
+import { useState } from "react";
+const Copy = () => {
+  const email = 'drkannobeck@gmail.com'; // Replace with your email
+  const [isCopied, setIsCopied] = useState(false);
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(email);
+      setIsCopied(true);
+    } catch (error) {
+      console.error('Failed to copy email: ', error);
+    }
+  };
+
+  return (
+    <button 
+      onClick={copyEmail}
+      className="font-semibold"
+    >
+      <span className={`text-${isCopied ? 'green' : 'blue'}-500 hover:text-${isCopied ? 'green' : 'blue'}-700`}>
+      {isCopied ? 'Email Copied 😌' : 'Copy Email Address'}
+      </span>
+    </button>
+  )
+}
+
+export default Copy

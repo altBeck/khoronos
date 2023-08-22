@@ -25,6 +25,15 @@ const ME = () => {
 
       <div className="xl:pt-32">
         <h3 className="xl:text-4xl">My design process</h3>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="bg-blue-200 p-4">Item 1</div>
+          <div className="bg-green-200 p-4">Item 2</div>
+          <div className="bg-yellow-200 p-4">Item 3</div>
+          <div className="bg-red-200 p-4">Item 4</div>
+          <div className="bg-purple-200 p-4">Item 5</div>
+          <div className="bg-pink-200 p-4">Item 6</div>
+        </div>
       </div>
     </div>
   )

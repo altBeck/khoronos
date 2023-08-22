@@ -5,12 +5,25 @@ const Nav = () => {
   return (
     <nav className="px-2 py-4 sm:px-4 sm:py-5 fixed w-full z-20 top-0 left-0 border-gray-600 bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
+
         <div className="m-0 md:pb-0">
           <div>
             <h2 className="m-0 text-lg font-medium">User Interface Designer</h2>
-            <p className="m-0 text-[#475467] font-light md:pb-0">@ Port Harcourt, Nigeria – working globally</p>
+            <p className="flex items-center m-0 text-[#475467] font-light md:pb-0 space-x-2">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+              </span>
+              <span>Available for work</span>
+            </p>
           </div>
         </div>
+
+        <button className="hidden md:block">
+          <a href="/">
+            <div className="w-4 h-4 rounded-full bg-blue-gradient"/>
+          </a>
+        </button>
 
         <div className="hidden md:flex">
           <Links />
