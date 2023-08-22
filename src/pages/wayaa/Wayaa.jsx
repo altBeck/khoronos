@@ -1,7 +1,18 @@
 
 const Wayaa = () => {
   return (
-    <div>Wayaa</div>
+    <div className="py-28">
+      <div>
+        <h1 className="xl:text-[100px] uppercase font-medium">wayaa</h1>
+        <p className="xl:text-3xl font-light">Design System</p>
+
+        <div className="w-96 flex space-x-2 text-sm font-light py-3">
+          <p className="px-3 py-2 border-black rounded-full border-[0.5px]">Wayaa</p>
+          <p className="px-3 py-2 border-black rounded-full border-[0.5px]">Product designer</p>
+          <p className="px-3 py-2 border-black rounded-full border-[0.5px]">2023</p>
+        </div>
+      </div>
+    </div>
   )
 }
 

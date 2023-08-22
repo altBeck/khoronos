@@ -3,3 +3,4 @@ export { default as NavBar } from './navbar/NavBar';
 export { default as Links } from './links/Links';
 export { default as Header } from './header/Header';
 export { default as Projects } from './projects/Projects';
+export { default as Footer } from './footer/Footer';

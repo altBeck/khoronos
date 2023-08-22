@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import { Nav, NavBar } from './components';
+import { Nav, NavBar, Footer } from './components';
 import { Home, Archive, ME, Work, Wayaa } from './pages';
 
 function App() {
@@ -19,6 +19,8 @@ function App() {
           <Route exact path='/work' element={<Work />} />
           <Route exact path='/wayaa' element={<Wayaa />} />
         </Routes>
+
+        <Footer />
       </Router>
     </>
   )
