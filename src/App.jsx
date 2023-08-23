@@ -19,10 +19,10 @@ function App() {
           <Route exact path='/wayaa' element={<Wayaa />} />
         </Routes>
 
+
        <Footer />
 
       </Router>
-
     </>
   )
 }
