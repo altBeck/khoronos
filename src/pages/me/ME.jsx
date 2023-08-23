@@ -14,9 +14,13 @@ const ME = () => {
         <div className="pt-4">
           <p className="text-2xl font-light">I&apos;m Beck Kanno – a self-taught Nigerian user interface designer working remotely. I&apos;m committed to delivering cool and impactful designs through strategic thinking and functional interactions.</p>
 
-          <p className="text-2xl font-light pt-4">I&apos;m currently a Product Designer at <a className="underline" href="https://www.breeze.africa/" target="_blank" rel="noopener noreferrer">Breeze</a>, having previously led designs as a User Interface Developer at <a className="underline" href="https://onlinecoursehost.com" target="_blank" rel="noopener noreferrer">OnlineCourseHost.Com</a>. On the side, I&apos;m working on <a className="underline" href="https://portalcheck.vercel.app" target="_blank" rel="noopener noreferrer">Portal Check</a>, a verification platform for university students.</p>
+          <p className="text-2xl font-light pt-4">I&apos;m currently a Product Designer at <span className="hover_img"><a className="underline" href="https://www.breeze.africa/" target="_blank" rel="noopener noreferrer">Breeze <span><img src="https://github.com/altBeck/img/blob/main/rsz_breeze-banner.png?raw=true" alt="image" height="100" /></span></a>
+          </span>, having previously led designs as a User Interface Developer at <span className="hover_img"><a className="underline" href="https://onlinecoursehost.com" target="_blank" rel="noopener noreferrer">OnlineCourseHost.Com <span><img src="https://github.com/altBeck/img/blob/main/rsz_64e5d6d102999.png?raw=true" alt="image" height="100" /></span></a></span>. On the side, I&apos;m working on <span className="hover_img"><a className="underline" href="https://onlinecoursehost.com" target="_blank" rel="noopener noreferrer">Portal Check <span><img src="https://github.com/altBeck/img/blob/main/rsz_1main.png?raw=true" alt="image" height="100" /></span></a></span>, a verification platform for university students.
+          </p>
         </div>
       </div>
+
+      
 
 
       <div className="my-20 xl:my-24">
@@ -24,7 +28,7 @@ const ME = () => {
       </div>
 
       <div className="xl:pt-32">
-        <h3 className="xl:text-4xl">My design process</h3>
+        <h3 className="xl:text-4xl uppercase py-4">My design process</h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className="bg-blue-200 p-4">Item 1</div>

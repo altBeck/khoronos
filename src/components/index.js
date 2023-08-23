@@ -5,3 +5,4 @@ export { default as Copy } from './copy/Copy';
 export { default as Header } from './header/Header';
 export { default as Projects } from './projects/Projects';
 export { default as Footer } from './footer/Footer';
+export { default as CurrentTime } from './currentTime/CurrentTime';

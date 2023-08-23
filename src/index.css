@@ -22,3 +22,7 @@ body {
 .bg-blue-gradient {
   background: linear-gradient(135deg, #1736D3 0%, #0A66C2 36.98%, #0B6DED 62.50%, #0783F8 100%);
 }
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }

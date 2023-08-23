@@ -15,10 +15,10 @@ const Copy = () => {
   return (
     <button 
       onClick={copyEmail}
-      className="font-semibold"
+      className="text-lg"
     >
       <span className={`text-${isCopied ? 'green' : 'blue'}-500 hover:text-${isCopied ? 'green' : 'blue'}-700`}>
-      {isCopied ? 'Email Copied 😌' : 'Copy Email Address'}
+      {isCopied ? 'Email Address Copied 😌' : 'Copy Email Address'}
       </span>
     </button>
   )

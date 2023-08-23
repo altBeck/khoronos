@@ -23,7 +23,7 @@ const NavBar = () => {
         </li>
         <li>
           <button>
-            <a href="/archive">Archive</a>
+            <a href="mailto:drkannobeck@gmail.com">Contact</a>
           </button>
         </li>
       </ul>
