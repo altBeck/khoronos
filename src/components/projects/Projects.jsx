@@ -1,26 +1,39 @@
-import { useState } from "react";
 
 const Projects = () => {
-  const [isHovered, setIsHovered] = useState(false);
   return (
     <div>
-
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 gap-4 max-w-7xl mx-auto">
+
+        {/* GRID #1: WAYAA */}
         <div className="p-3 xl:p-6 md:p-4 border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden">
           <a href="/wayaa">
-            <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px]">
+            <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px] group">
 
-            <img src="https://raw.githubusercontent.com/altBeck/img/main/rsz_waya.png" alt="Wayaa design system splash screen" loading="lazy" className={`transition-transform transform ${isHovered ? 'scale-105' : 'scale-100'}`}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)} />
+            <img src="https://raw.githubusercontent.com/altBeck/img/main/rsz_waya.png" alt="Wayaa Design System: Splash Screen" loading="lazy" className="transform scale-100 group-hover:scale-105 transition-transform w-full h-full"
+            />
             </div>
           </a>
           <div>
-            <h1 className="text-2xl pt-4">Design System</h1>
-            <p className="font-light text-[#475467]">Wayaa</p>
+            <h1 className="text-2xl pt-4">Wayaa</h1>
+            <p className="font-light text-[#475467]">Design System</p>
           </div>
         </div>
-        <div className="bg-green-200 p-4">Item 2</div>
+
+
+       {/* GRID #2: WAYAA */}
+        <div className="p-3 xl:p-6 md:p-4 border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden group">
+          <a href="/portal-check">
+            <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px]">
+
+            <img src="https://raw.githubusercontent.com/altBeck/img/main/rsz_portalcheck.png" alt="Portal Check Website: Splash Screen" loading="lazy" className="transform scale-100 group-hover:scale-105 transition-transform w-full h-full"
+            />
+            </div>
+          </a>
+          <div>
+            <h1 className="text-2xl pt-4">Portal Check</h1>
+            <p className="font-light text-[#475467]">Product Design</p>
+          </div>
+        </div>        
         <div className="bg-yellow-200 p-4">Item 3</div>
         <div className="bg-red-200 p-4">Item 4</div>
         <div className="bg-purple-200 p-4">Item 5</div>
