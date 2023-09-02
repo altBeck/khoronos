@@ -22,9 +22,9 @@ const Footer = () => {
         
               <a href="https://react.dev/" className="text-sky-600" target="_blank" rel="noreferrer">react&nbsp;</a>
         
-                &amp;&nbsp;
+                &amp;&nbsp;deployed via
         
-              <a href="https://www.netlify.com/" className="text-sky-600" target="_blank" rel="noreferrer">deployed via Netlify</a>.
+              <a href="https://www.vercel.com/" className="text-sky-600" target="_blank" rel="noreferrer"> Vercel</a>.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="pt-4 sm:pt-0">
               <ul className="text-lg space-y-2">
                 <li className="hover:text-gray-900">
-                  <a href="https://linkedin.com/in/kanno-beck">Linkedin</a>
+                  <a href="https://linkedin.com/in/kanno-beck">LinkedIn</a>
                 </li>
 
                 <li className="hover:text-gray-900">
