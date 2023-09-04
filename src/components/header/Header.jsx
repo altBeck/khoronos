@@ -1,4 +1,4 @@
-import arrow from "../../assets/arrow-up-right.svg";
+import arrow from "/assets/arrow-up-right.svg";
 
 const Header = () => {
   return (

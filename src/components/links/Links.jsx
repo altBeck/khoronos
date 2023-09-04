@@ -1,9 +1,9 @@
 import { Button, Tooltip } from "flowbite-react";
 
-import dbbbl from "../../assets/Dribbble svg.svg";
-import lknd from "../../assets/LinkedIn svg.svg";
-import mail from "../../assets/mail.svg";
-import arrow from "../../assets/arrow-up-right.svg";
+import dbbbl from "/assets/Dribbble svg.svg";
+import lknd from "/assets/LinkedIn svg.svg";
+import mail from "/assets/mail.svg";
+import arrow from "/assets/arrow-up-right.svg";
 
 const Links = () => {
   return (

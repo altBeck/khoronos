@@ -1,5 +1,5 @@
 import Links from "../links/Links";
-import arrow from "../../assets/arrow-up-right.svg";
+import arrow from "/assets/arrow-up-right.svg";
 
 const Nav = () => {
   return (

@@ -1,4 +1,4 @@
-import left from "../../assets/chevron-left.svg";
+import left from "/assets/chevron-left.svg";
 
 const ME = () => {
   return (
