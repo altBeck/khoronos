@@ -8,13 +8,14 @@ const __dirname = dirname(__filename);
 const app = express();
 const port = 3000; // Choose your desired port number
 
-// Middleware to set Cache-Control headers for all routes
+// Middleware to set Cache-Control header for all routes
 app.use((req, res, next) => {
-  // Set cache control headers to no-store, no-cache, must-revalidate for all responses
+  // Set cache control headers to disable caching
   res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
-  // Optionally, you can set other headers like 'Expires' or 'Pragma'
-  // res.setHeader('Expires', '-1');
+  
+  // Optionally, you can set other headers like 'Pragma' to further control caching
   // res.setHeader('Pragma', 'no-cache');
+  
   next();
 });
 

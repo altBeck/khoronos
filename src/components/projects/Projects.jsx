@@ -1,4 +1,5 @@
-
+import mkone from "/images/rsz_waya.png";
+import mktwo from "/images/rsz_portalcheck.png";
 const Projects = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const Projects = () => {
           <a href="/wayaa">
             <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px] group">
 
-            <img src="https://raw.githubusercontent.com/altBeck/img/main/rsz_waya.png" alt="Wayaa Design System: Splash Screen" loading="lazy" className="transform scale-100 group-hover:scale-105 transition-transform w-full h-full"
+            <img src={mkone} alt="Wayaa Design System: Splash Screen" loading="lazy" className="transform scale-100 group-hover:scale-105 transition-transform w-full h-full"
             />
             </div>
           </a>
@@ -20,12 +21,12 @@ const Projects = () => {
         </div>
 
 
-       {/* GRID #2: WAYAA */}
+       {/* GRID #2: PORTAL CHECK */}
         <div className="p-3 xl:p-6 md:p-4 border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden group">
           <a href="/portal-check">
             <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px]">
 
-            <img src="https://raw.githubusercontent.com/altBeck/img/main/rsz_portalcheck.png" alt="Portal Check Website: Splash Screen" loading="lazy" className="transform scale-100 group-hover:scale-105 transition-transform w-full h-full"
+            <img src={mktwo} alt="Portal Check Website: Splash Screen" loading="lazy" className="transform scale-100 group-hover:scale-105 transition-transform w-full h-full"
             />
             </div>
           </a>

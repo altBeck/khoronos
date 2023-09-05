@@ -1,4 +1,5 @@
 import portalVideo from "/p-untltd.mp4";
+import phead from "/images/h8ader-pc.png";
 
 const Portalcheck = () => {
   return (
@@ -17,7 +18,7 @@ const Portalcheck = () => {
 
 
       <header className="pt-4 relative container">
-        <img className="rounded w-full" src="https://raw.githubusercontent.com/altBeck/img/main/h8ader-pc.png" alt="Portal check header image"/>
+        <img className="rounded w-full" src={phead} alt="Portal check header image"/>
       </header>
 
 
