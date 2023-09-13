@@ -1,4 +1,4 @@
-import portalVideo from "/p-untltd.mp4";
+import portalVideo from "/pc_untltd.mp4";
 import phead from "/images/h8ader-pc.png";
 
 const Portalcheck = () => {

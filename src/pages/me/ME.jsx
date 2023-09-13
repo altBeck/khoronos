@@ -12,10 +12,10 @@ const ME = () => {
         <h1 className="text-6xl xl:text-[84px] font-medium">ABOUT ME</h1>
 
         <div className="pt-4">
-          <p className="text-lg md:text-2xl font-light">I&apos;m Beck Kanno – a self-taught Nigerian user interface designer working remotely. I&apos;m committed to delivering cool and impactful designs through strategic thinking and functional interactions.</p>
+          <p className="text-lg md:text-2xl font-light">I&apos;m <b>Beck Kanno</b> – a self-taught Nigerian User Interface Designer working remotely. I&apos;m committed to delivering cool and impactful designs through strategic thinking and functional interactions.</p>
 
           <p className="text-lg md:text-2xl font-light pt-4">I&apos;m currently a Product Designer at <span className="hover_img"><a className="underline" href="https://www.breeze.africa/" target="_blank" rel="noopener noreferrer">Breeze<span></span></a>
-          </span>, having previously led designs as a User Interface Developer at <span className="hover_img"><a className="underline" href="https://onlinecoursehost.com" target="_blank" rel="noopener noreferrer">OnlineCourseHost.Com<span></span></a></span>. On the side, I&apos;m working on <span className="hover_img"><a className="underline" href="https://onlinecoursehost.com" target="_blank" rel="noopener noreferrer">Portal Check<span></span></a></span>, a verification platform for university students.
+          </span>, having previously led designs as a <b>User Interface Developer</b> at <span className="hover_img"><a className="underline" href="https://onlinecoursehost.com" target="_blank" rel="noopener noreferrer">OnlineCourseHost.Com<span></span></a></span>. On the side, I&apos;m working on <span className="hover_img"><a className="underline" href="https://onlinecoursehost.com" target="_blank" rel="noopener noreferrer">Portal Check<span></span></a></span>, a verification platform for university students.
           </p>
         </div>
       </div>
