@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
           </a>
           <div>
-            <h1 className="text-2xl pt-4">Portal Check</h1>
+            <h1 className="text-2xl pt-4">RAZr Studio</h1>
             <p className="font-light text-[#475467]">Product Design</p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Projects = () => {
           </a>
           <div>
             <h1 className="text-2xl pt-4">Portal Check</h1>
-            <p className="font-light text-[#475467]">Product Design</p>
+            <p className="font-light text-[#475467]">Identity verification platform, focused on streamlining student enrollment verification in Nigerian universities.</p>
           </div>
         </div>        
 

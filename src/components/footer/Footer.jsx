@@ -3,7 +3,7 @@ import CurrentTime from "../currentTime/CurrentTime";
 
 const Footer = () => {
   return (
-    <div className="absolute w-full bottom-auto bg-[#f9f9f9] left-0 mt-16 font-light">
+    <div className="absolute w-screen bottom-auto bg-[#f9f9f9] left-0 mt-16 font-light">
       <div className="max-w-7xl pt-8 px-4 mx-auto xl:py-8 mb-20 text-gray-500">
         <div className="flex flex-col-reverse md:flex-row justify-between">
 

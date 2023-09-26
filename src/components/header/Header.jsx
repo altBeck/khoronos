@@ -2,7 +2,7 @@ import arrow from "/assets/arrow-up-right.svg";
 
 const Header = () => {
   return (
-    <div className="mx-auto pt-28 md:pt-40">
+    <div className="mx-auto pt-28 md:pt-20">
       <div className="text-center pb-4 md:pb-16">
         <div>
           <h1 className="uppercase text-4xl md:text-[86px] xl:text-[150px] font-semibold text-black md:my-[52px] xl:my-[86px]">

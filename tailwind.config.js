@@ -9,7 +9,12 @@ export default {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'body': ['"Inter"', 'system-ui'],
+        'display': ['"Splice Sans"', 'system-ui'],
+      },
+    },
   },
   plugins: [
     // eslint-disable-next-line no-undef

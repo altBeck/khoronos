@@ -28,7 +28,7 @@ const Nav = () => {
         <div className="hidden md:flex">
           <Links />
 
-          <button className="hidden md:flex justify-center px-6 py-3 border-[0.5px] border-[#E1E0E5] rounded-[99px] shado">
+          <button className="hidden md:flex justify-center bg-[#FCFCFC] px-6 py-3 border-[0.5px] border-[#E1E0E5] rounded-[99px] shado">
             <span className="flex">
               <a className="flex" href="https://drive.google.com/file/d/1hdTlI_GiH2eEcHo0lvrMf6VbQp_0DCKh/view" target="_blank" rel="noopener noreferrer">Resume<img src={arrow} alt="arrow-enter"/></a>
             </span>

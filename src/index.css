@@ -2,12 +2,12 @@
   font-family: Spline Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   background-color: #fcfcfc;
+  padding: 1.25rem;
 }
 
 body {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 1.25rem;
   overflow-x: hidden;
 }
 
