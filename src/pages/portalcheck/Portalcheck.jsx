@@ -70,8 +70,23 @@ const Portalcheck = () => {
         </video>
 
         <section>
-          <div>
-            <h1>Design System</h1>
+          <div className="flex flex-col md:flex-row justify-between md:py-12">
+            <div className="max-w-lg">
+              <h1 className="text-lg font-medium">Problem Statement</h1>
+              <p className="text-[#666] font-body">In the context of student enrollment verification in Nigerian universities, the existing process is marred by inefficiencies, manual paperwork, and the potential for inaccurate or fraudulent academic credentials. This leads to delays, administrative burdens, and risks in verification. 
+              </p>  
+              <p className="text-[#666] font-body mt-1">
+                Portal Check offers a streamlined, technology-driven solution for swift and accurate academic data authentication, benefiting institutions, students, employers, and stakeholders.
+              </p>
+            </div>
+            <div className="max-w-lg">
+              <h1 className="text-lg font-medium">Design System</h1>
+              <p className="text-[#666] font-body">I spearheaded the development of Portal Check&apos;s design system, a crucial step. This system ensures a uniform user experience, building trust in our brand. I streamlined development, making it adaptable for future growth. 
+              </p>
+              
+              <p className="text-[#666] font-body mt-1">
+              By incorporating accessibility and user-centric design, it became a versatile and collaborative tool. I carefully defined guidelines for typography, color schemes, and UI elements, offering a structured framework for scalable, user-friendly, and visually appealing design.</p>
+            </div>
           </div>
           <div>
             <img className="rounded-md" src={color} alt="portal check colors" />
