@@ -1,5 +1,5 @@
-import portalVideo from "/pc_untltd.mp4";
-import demo from "/demo.mp4";
+import portalVideo from "/video/pc_untltd.mp4";
+import demo from "/video/demo.mp4";
 import phead from "/images/h8ader-pc.png";
 import portal from "/images/portal.png";
 import color from "/images/dsColor.png";
