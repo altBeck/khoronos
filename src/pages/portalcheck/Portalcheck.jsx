@@ -145,7 +145,7 @@ const Portalcheck = () => {
 
         <div className="flex flex-col md:flex-row justify-between py-6 md:pt-12">
           <h1 className="text-lg font-medium pb-1">Conclusion</h1>
-          <p className="text-[#666] font-body max-w-xl">In creating Portal Check, I&apos;ve learned the importance of clear, intuitive user guidance and the significance of showcasing the platform&apos;s standout features. As the project&apos;s demo recently launched, results will be shared after a period of time to gauge user engagement and gather feedback for further refinement. This iterative process ensures that the demo page continues to effectively serve its purpose in providing users with a compelling and informative experience of Portal Check&apos;s capabilities.results from the demo&apos;s launch will be shared after a period of assessment, as it was recently introduced to the public.</p>
+          <p className="text-[#666] font-body max-w-xl">In creating Portal Check, I&apos;ve learned the importance of clear, intuitive user guidance and the significance of showcasing the platform&apos;s standout features. As the project&apos;s demo recently launched, results from the demo&apos;s launch will be shared after a period of assessment and gathering feedback for further refinement. This iterative process ensures that the demo page continues to effectively serve its purpose in providing users with a compelling and informative experience of Portal Check&apos;s capabilities.</p>
         </div>
 
       </div>
