@@ -8,7 +8,7 @@ import students from "/images/students.png";
 
 const Portalcheck = () => {
   return (
-    <div className="py-28">
+    <div className="pt-28">
       {/* Header */}
       <div>
         <h1 className="xl:text-[100px] uppercase font-medium">portal check</h1>
@@ -25,11 +25,11 @@ const Portalcheck = () => {
         <img className="rounded-md w-full" src={phead} alt="Portal check header image"/>
       </header>
 
-      <section className="flex flex-col md:flex-row justify-between md:py-12">
+      <section className="flex flex-col md:flex-row justify-between md:py-12 space-y-6 sm:space-y-0">
 
-        <div className="max-w-md sm:p-4 pt-4 flex flex-col  space-y-4">
+        <div className="max-w-md sm:p-4 pt-4 flex flex-col  space-y-6">
           <div>
-            <h2 className="text-lg font-medium">My Role</h2>
+            <h2 className="text-lg font-medium pb-1">My Role</h2>
             <p className="font-body">UXE — <span className="text-[#666]">UI & Interaction design, User flow optimization, Visual Design</span></p>
           </div>
           <div>
@@ -46,7 +46,7 @@ const Portalcheck = () => {
 
         <div className="max-w-lg sm:p-4 pt-4">
           
-          <h1 className="text-lg font-medium">Overview</h1>
+          <h1 className="text-lg font-medium pb-1">Overview</h1>
           <div className="text-[#666] text-base font-body">
             <p>
               Portal Check is an identity verification platform streamlining student enrollment verification in Nigerian universities, addressing inefficiencies, delays, and potential inaccuracies in the traditional verification process.
@@ -67,15 +67,15 @@ const Portalcheck = () => {
 
 
       <div className="py-4">
-        <video className="rounded-md" autoPlay loop muted>
+        <video className="rounded-md py-4 sm:py-0" autoPlay loop muted>
           <source src={portalVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
         <section>
-          <div className="flex flex-col md:flex-row gap-x-10 justify-between md:py-12">
+          <div className="flex flex-col md:flex-row gap-x-10 justify-between pb-6 md:py-12 space-y-6 sm:space-y-0">
             <div className="max-w-lg">
-              <h1 className="text-lg font-medium">Problem Statement</h1>
+              <h1 className="text-lg font-medium pb-1">Problem Statement</h1>
               <p className="text-[#666] font-body">In the context of student enrollment verification in Nigerian universities, the existing process is marred by inefficiencies, manual paperwork, and the potential for inaccurate or fraudulent academic credentials. This leads to delays, administrative burdens, and risks in verification. 
               </p>  
               <p className="text-[#666] font-body mt-1">
@@ -83,7 +83,7 @@ const Portalcheck = () => {
               </p>
             </div>
             <div className="max-w-lg">
-              <h1 className="text-lg font-medium">Design System</h1>
+              <h1 className="text-lg font-medium pb-1">Design System</h1>
               <p className="text-[#666] font-body">I spearheaded the development of Portal Check&apos;s design system, a crucial step. This system ensures a uniform user experience, building trust in our brand. I streamlined development, making it adaptable for future growth. 
               </p>
               
@@ -91,11 +91,12 @@ const Portalcheck = () => {
               By incorporating accessibility and user-centric design, it became a versatile and collaborative tool. I carefully defined guidelines for typography, color schemes, and UI elements, offering a structured framework for scalable, user-friendly, and visually appealing design.</p>
             </div>
           </div>
+
           <div>
             <img className="rounded-md" src={color} alt="portal check colors" />
-            <div className="py-4"/>
+            <div className="py-2"/>
             <img className="rounded-md" src={typo} alt="portal check typography" />
-            <div className="py-10"/>
+            <div className="py-5"/>
           </div>
         </section>
 
@@ -105,8 +106,8 @@ const Portalcheck = () => {
           <img className="rounded-md" src={portal} alt="Portal Check Website"/>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between md:py-12">
-          <h1 className="text-lg font-medium">Portal Check Demo</h1>
+        <div className="flex flex-col md:flex-row justify-between py-6 md:py-12">
+          <h1 className="text-lg font-medium pb-1">Portal Check Demo</h1>
 
           <div>
             <p className="text-[#666] font-body pb-4 max-w-xl">Portal Check&apos;s demo page provides a hands-on, user-friendly introduction to the platform&apos;s key features. It offers a practical experience, showcasing how Portal Check addresses specific needs and serves as a powerful marketing tool. Additionally, it serves as an educational resource, guiding users on effective navigation and utilization of Portal Check.
@@ -132,8 +133,8 @@ const Portalcheck = () => {
         </video>
 
         <div>
-          <div className="flex flex-col md:flex-row justify-between md:py-12">
-            <h1 className="text-lg font-medium">Coming Soon...</h1>
+          <div className="flex flex-col md:flex-row justify-between py-6 md:py-12">
+            <h1 className="text-lg font-medium pb-1">Coming Soon...</h1>
             <p className="text-[#666] font-body pb-4 max-w-xl">
             Here&apos;s a sneak peek of our evolving dashboard, offering a comprehensive view of student data—school, course, current level, institution and more exciting features to come. This powerful tool is designed to assist institutions in streamlining their enrollment verification process, ensuring accuracy and efficiency in managing academic records.
             </p>
@@ -142,9 +143,9 @@ const Portalcheck = () => {
         </div>
 
 
-        <div className="flex flex-col md:flex-row justify-between md:py-12">
-          <h1 className="text-lg font-medium">Conclusion</h1>
-          <p className="text-[#666] font-body pb-4 max-w-xl">In creating Portal Check, I&apos;ve learned the importance of clear, intuitive user guidance and the significance of showcasing the platform&apos;s standout features. As the project&apos;s demo recently launched, results will be shared after a period of time to gauge user engagement and gather feedback for further refinement. This iterative process ensures that the demo page continues to effectively serve its purpose in providing users with a compelling and informative experience of Portal Check&apos;s capabilities.results from the demo&apos;s launch will be shared after a period of assessment, as it was recently introduced to the public.</p>
+        <div className="flex flex-col md:flex-row justify-between py-6 md:pt-12">
+          <h1 className="text-lg font-medium pb-1">Conclusion</h1>
+          <p className="text-[#666] font-body max-w-xl">In creating Portal Check, I&apos;ve learned the importance of clear, intuitive user guidance and the significance of showcasing the platform&apos;s standout features. As the project&apos;s demo recently launched, results will be shared after a period of time to gauge user engagement and gather feedback for further refinement. This iterative process ensures that the demo page continues to effectively serve its purpose in providing users with a compelling and informative experience of Portal Check&apos;s capabilities.results from the demo&apos;s launch will be shared after a period of assessment, as it was recently introduced to the public.</p>
         </div>
 
       </div>
