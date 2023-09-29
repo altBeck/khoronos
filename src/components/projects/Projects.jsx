@@ -1,5 +1,5 @@
 import mkone from "/images/rsz_waya.png";
-import mktwo from "/images/portalLink.png";
+import mktwo from "/images/dsPortal.png";
 import razr from "/images/RAZr.png";
 const Projects = () => {
   return (

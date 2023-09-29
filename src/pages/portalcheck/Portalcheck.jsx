@@ -1,7 +1,9 @@
 import portalVideo from "/pc_untltd.mp4";
+import demo from "/demo.mp4";
 import phead from "/images/h8ader-pc.png";
 import portal from "/images/portal.png";
 import color from "/images/dsColor.png";
+import students from "/images/students.png";
 
 const Portalcheck = () => {
   return (
@@ -9,11 +11,11 @@ const Portalcheck = () => {
       {/* Header */}
       <div>
         <h1 className="xl:text-[100px] uppercase font-medium">portal check</h1>
-        <p className="xl:text-3xl font-light">Web Design</p>
+        <p className="xl:text-3xl font-light">Product Design</p>
 
         <div className="w-96 flex space-x-2 text-sm font-light py-3">
           <p className="px-3 py-2 border-[#D0D5DD] rounded-full border-[0.5px]">Portal Check</p>
-          <p className="px-3 py-2 border-[#D0D5DD] rounded-full border-[0.5px]">Product designer</p>
+          <p className="px-3 py-2 border-[#D0D5DD] rounded-full border-[0.5px]">Product Designer</p>
           <p className="px-3 py-2 border-[#D0D5DD] rounded-full border-[0.5px]">2023</p>
         </div>
       </div>
@@ -24,7 +26,7 @@ const Portalcheck = () => {
 
       <section className="flex flex-col md:flex-row justify-between md:py-12">
 
-        <div className="max-w-md sm:p-4 pt-4 flex flex-col space-y-4">
+        <div className="max-w-md sm:p-4 pt-4 flex flex-col  space-y-4">
           <div>
             <h2 className="text-lg font-medium">My Role</h2>
             <p className="font-body">UXE — <span className="text-[#666]">UI & Interaction design, User flow optimization, Visual Design</span></p>
@@ -70,7 +72,7 @@ const Portalcheck = () => {
         </video>
 
         <section>
-          <div className="flex flex-col md:flex-row justify-between md:py-12">
+          <div className="flex flex-col md:flex-row gap-x-10 justify-between md:py-12">
             <div className="max-w-lg">
               <h1 className="text-lg font-medium">Problem Statement</h1>
               <p className="text-[#666] font-body">In the context of student enrollment verification in Nigerian universities, the existing process is marred by inefficiencies, manual paperwork, and the potential for inaccurate or fraudulent academic credentials. This leads to delays, administrative burdens, and risks in verification. 
@@ -95,10 +97,53 @@ const Portalcheck = () => {
         </section>
 
         <div className="pt-4">
-          <h1 className="">Final Design</h1>
+          <h1 className="">Homepage design</h1>
           <p>Site can be visited <a className="text-[]" href="https://portal-check.vercel.app" target="_blank" rel="noopener noreferrer">here</a></p>
           <img className="rounded-md" src={portal} alt="Portal Check Website"/>
         </div>
+
+        <div className="flex flex-col md:flex-row justify-between md:py-12">
+          <h1 className="text-lg font-medium">Portal Check Demo</h1>
+
+          <div>
+            <p className="text-[#666] font-body pb-4 max-w-xl">Portal Check&apos;s demo page provides a hands-on, user-friendly introduction to the platform&apos;s key features. It offers a practical experience, showcasing how Portal Check addresses specific needs and serves as a powerful marketing tool. Additionally, it serves as an educational resource, guiding users on effective navigation and utilization of Portal Check.
+            </p>  
+
+            <div className="flex space-x-4">
+              <button className="bg-[#0053D6] text-white px-5 py-3 rounded-md">
+                <a href="https://www.figma.com/proto/87krT8M5VFyXar0TF6Yt4P/Portal-Check?type=design&node-id=1415-1295&t=ShJPuyPjU6l4QUrT-0&scaling=min-zoom&page-id=627%3A90&starting-point-node-id=1415%3A1295" target="_blank" rel="noopener noreferrer">View prototype</a>
+              </button>
+
+              <button className="border-[#0053D6] hover:border-[#025DED] hover:bg-[#025DED] border hover:text-white text-[#0053D6] px-5 py-3 rounded-md">
+                <a href="#">Live site</a>
+              </button>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <video className="rounded-md" autoPlay loop muted>
+          <source className="container" src={demo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div>
+          <div className="flex flex-col md:flex-row justify-between md:py-12">
+            <h1 className="text-lg font-medium">Coming Soon...</h1>
+            <p className="text-[#666] font-body pb-4 max-w-xl">
+            Here&apos;s a sneak peek of our evolving dashboard, offering a comprehensive view of student data—school, course, current level, and institution. This powerful tool is designed to assist institutions in streamlining their enrollment verification process, ensuring accuracy and efficiency in managing academic records.
+            </p>
+          </div>
+          <img className="rounded-md" src={students} alt="portal check dashboard" />
+        </div>
+
+
+        <div className="flex flex-col md:flex-row justify-between md:py-12">
+          <h1 className="text-lg font-medium">Conclusion</h1>
+          <p className="text-[#666] font-body pb-4 max-w-xl">In creating Portal Check, I&apos;ve learned the importance of clear, intuitive user guidance and the significance of showcasing the platform&apos;s standout features. As the project&apos;s demo recently launched, results will be shared after a period of time to gauge user engagement and gather feedback for further refinement. This iterative process ensures that the demo page continues to effectively serve its purpose in providing users with a compelling and informative experience of Portal Check&apos;s capabilities.results from the demo&apos;s launch will be shared after a period of assessment, as it was recently introduced to the public.</p>
+        </div>
+
       </div>
     </div>
   )
