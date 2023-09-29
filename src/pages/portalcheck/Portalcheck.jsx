@@ -3,6 +3,7 @@ import demo from "/demo.mp4";
 import phead from "/images/h8ader-pc.png";
 import portal from "/images/portal.png";
 import color from "/images/dsColor.png";
+import typo from "/images/dsTypography.png";
 import students from "/images/students.png";
 
 const Portalcheck = () => {
@@ -38,7 +39,7 @@ const Portalcheck = () => {
           </div>
           <div>
             <h2>Timeline & Status</h2>
-            <p className="font-body">2 Months, <span className="text-[#666]">Launched in October 2023</span></p>
+            <p className="font-body">2 Months, <span className="text-[#666]">TBD 2023</span></p>
           </div>
 
         </div>
@@ -92,6 +93,8 @@ const Portalcheck = () => {
           </div>
           <div>
             <img className="rounded-md" src={color} alt="portal check colors" />
+            <div className="py-4"/>
+            <img className="rounded-md" src={typo} alt="portal check typography" />
             <div className="py-10"/>
           </div>
         </section>
@@ -132,7 +135,7 @@ const Portalcheck = () => {
           <div className="flex flex-col md:flex-row justify-between md:py-12">
             <h1 className="text-lg font-medium">Coming Soon...</h1>
             <p className="text-[#666] font-body pb-4 max-w-xl">
-            Here&apos;s a sneak peek of our evolving dashboard, offering a comprehensive view of student data—school, course, current level, and institution. This powerful tool is designed to assist institutions in streamlining their enrollment verification process, ensuring accuracy and efficiency in managing academic records.
+            Here&apos;s a sneak peek of our evolving dashboard, offering a comprehensive view of student data—school, course, current level, institution and more exciting features to come. This powerful tool is designed to assist institutions in streamlining their enrollment verification process, ensuring accuracy and efficiency in managing academic records.
             </p>
           </div>
           <img className="rounded-md" src={students} alt="portal check dashboard" />
