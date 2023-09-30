@@ -100,9 +100,14 @@ const Portalcheck = () => {
           </div>
         </section>
 
-        <div className="pt-4">
-          <h1 className="">Homepage design</h1>
-          <p>Site can be visited <a className="text-[]" href="https://portal-check.vercel.app" target="_blank" rel="noopener noreferrer">here</a></p>
+        <div>
+          <div className="flex flex-col md:flex-row justify-between py-6 md:py-12">
+            <h1 className="text-lg font-medium pb-1">Homepage</h1>
+            <div>
+              <p className="text-[#666] font-body pb-4 max-w-xl">Portal Check&apos;s homepage design brilliantly communicates its value with a clean, intuitive layout. Key features and calls-to-action are strategically placed, guiding users seamlessly. The professional color scheme and imagery inspire trust and confidence. Overall, the design invites exploration.</p>
+              <button className="bg-[#0053D6] text-white px-5 py-3 rounded-md"><a className="text-[]" href="https://portal-check.vercel.app" target="_blank" rel="noopener noreferrer">Live site</a></button>
+            </div>
+          </div>
           <img className="rounded-md" src={portal} alt="Portal Check Website"/>
         </div>
 
