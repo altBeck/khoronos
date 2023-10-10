@@ -3,7 +3,7 @@ import arrow from "/assets/arrow-up-right.svg";
 
 const Nav = () => {
   return (
-    <nav className="px-2 py-4 sm:px-4 sm:py-5 fixed w-full z-20 top-0 left-0 border-gray-600 bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
+    <nav className="px-2 py-4 sm:px-4 sm:py-5 fixed w-full z-20 top-0 left-0 border-gray-600 bg-gradient-to-br from-transparent via-white to-transparent backdrop-filter backdrop-blur-md">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
 
         <div className="m-0 md:pb-0">

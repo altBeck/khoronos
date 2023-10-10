@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 gap-4 max-w-7xl mx-auto">
 
         {/* GRID #1: PORTAL CHECK */}
-        <div className="p-3 xl:p-6 md:p-4 bg-white border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden group">
+        <div className="p-3 bg-white border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden group">
           <a href="/portal-check">
             <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px]">
 
@@ -15,7 +15,7 @@ const Projects = () => {
             />
             </div>
           </a>
-          <div>
+          <div className="p-1">
             <h1 className="text-2xl pt-4">Portal Check</h1>
             <p className="font-light text-[#475467]">Identity verification platform, focused on streamlining student enrollment verification in Nigerian universities.</p>
           </div>
@@ -23,7 +23,7 @@ const Projects = () => {
 
 
        {/* GRID #2: WAYAA */}
-        <div className="p-3 xl:p-6 md:p-4 bg-white border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden">
+        <div className="p-3 bg-white border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden">
           <a href="/wayaa">
             <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px] group">
 
@@ -31,7 +31,7 @@ const Projects = () => {
             />
             </div>
           </a>
-          <div>
+          <div className="p-1">
             <h1 className="text-2xl pt-4">Wayaa</h1>
             <p className="font-light text-[#475467]">Design System</p>
           </div>
@@ -39,7 +39,7 @@ const Projects = () => {
 
 
        {/* GRID #3: RAZR STUDIO */}
-       <div className="p-3 xl:p-6 md:p-4 bg-white border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden group">
+       <div className="p-3 bg-white border-[#D0D5DD] border-[0.5px] rounded-xl shado overflow-hidden group">
           <a href="/razr">
             <div className="rounded-lg border-[#D0D5DD] overflow-hidden border-[0.5px]">
 
@@ -47,7 +47,7 @@ const Projects = () => {
             />
             </div>
           </a>
-          <div>
+          <div className="p-1">
             <h1 className="text-2xl pt-4">RAZr Studio</h1>
             <p className="font-light text-[#475467]">Product Design</p>
           </div>

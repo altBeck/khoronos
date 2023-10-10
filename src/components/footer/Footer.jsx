@@ -14,17 +14,17 @@ const Footer = () => {
             <p id="credit" className="md:w-72 pt-4 text-gray-500 dark:text-gray-900 pb-10">2023 © <span className="text-gray-900 font-normal"> Beck</span>&nbsp;&nbsp; All Rights Reserved. <br />
             
             This site was designed in&nbsp;
-              <a href="https://www.figma.com/" className="text-sky-600" target="_blank" rel="noreferrer">Figma</a>,&nbsp;
+              <a href="https://www.figma.com/" className="text-sky-600 hover:text-blue-700" target="_blank" rel="noreferrer">Figma</a>,&nbsp;
         
-              <a href="https://tailwindcss.com/" className="text-sky-600" target="_blank" rel="noreferrer">tailwindcss&nbsp;</a> 
+              <a href="https://tailwindcss.com/" className="text-sky-600 hover:text-blue-700" target="_blank" rel="noreferrer">tailwindcss&nbsp;</a> 
         
                 with a cup of&nbsp;
         
-              <a href="https://react.dev/" className="text-sky-600" target="_blank" rel="noreferrer">react&nbsp;</a>
+              <a href="https://react.dev/" className="text-sky-600 hover:text-blue-700" target="_blank" rel="noreferrer">react&nbsp;</a>
         
                 &amp;&nbsp;deployed via
         
-              <a href="https://www.vercel.com/" className="text-sky-600" target="_blank" rel="noreferrer"> Vercel</a>.
+              <a href="https://www.vercel.com/" className="text-sky-600 hover:text-blue-700" target="_blank" rel="noreferrer"> Vercel</a>.
             </p>
           </div>
 

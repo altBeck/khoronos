@@ -14,6 +14,9 @@ export default {
         'body': ['"Inter"', 'system-ui'],
         'display': ['"Splice Sans"', 'system-ui'],
       },
+      colors: {
+        'background': '#fdfdfd',
+      },
     },
   },
   plugins: [

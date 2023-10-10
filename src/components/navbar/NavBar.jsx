@@ -9,19 +9,19 @@ const NavBar = () => {
             </a>
           </button>
         </li>
-        <li>
+        <li className="px-2">
           <button type="button">
             <a href="/work">
               Work
             </a>
           </button>
         </li>
-        <li>
+        <li className="px-2">
           <button type="button">
             <a href="/me">About</a>
           </button>
         </li>
-        <li>
+        <li className="px-2">
           <button type="button">
             <a href="mailto:drkannobeck@gmail.com">Contact</a>
           </button>
